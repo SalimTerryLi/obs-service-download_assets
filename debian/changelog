@@ -1,0 +1,6 @@
+obs-service-download-assets (0.2) unstable; urgency=medium
+
+  * Initial Debian packaging (ported from RPM spec).
+  * Wrapper for the download_assets helper from the `build` package.
+
+ -- openSUSE OBS Team <bugs@opensuse.org>  Mon, 01 Jan 2024 00:00:00 +0000

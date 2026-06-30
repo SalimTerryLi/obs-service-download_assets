@@ -1,0 +1,16 @@
+Source: obs-service-download-assets
+Section: devel
+Priority: optional
+Maintainer: openSUSE OBS Team <bugs@opensuse.org>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.2
+Homepage: http://build.opensuse.org/
+
+Package: obs-service-download-assets
+Architecture: all
+Depends: ${misc:Depends},
+         build | obs-build,
+         libwww-perl
+Description: An OBS source service: Wrapper for download_assets
+ A small wrapper to make download_assets from the build script usable
+ via a source service.

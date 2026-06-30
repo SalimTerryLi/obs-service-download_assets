@@ -1,0 +1,5 @@
+download_assets            usr/lib/obs/service
+download_assets.service    usr/lib/obs/service
+clean_assets               usr/lib/obs/service
+clean_assets.service       usr/lib/obs/service
+download_assets.rc         etc/obs/services
